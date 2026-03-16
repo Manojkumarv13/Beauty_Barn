@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/product_model.dart';
 
 class ApiService {
-  static const baseUrl = "https://bb3-api.ashwinsrivastava.com/store";
+  //static const baseUrl = "https://bb3-api.ashwinsrivastava.com/store";
   //static const baseUrl = "https://api.stryce.com/store";
   static Future<List<ProductModel>> fetchProducts({
     int? page,
